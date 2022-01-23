@@ -3069,7 +3069,7 @@
                 ) {
                   var o = document.createElement("div");
                   o.classList.add("no-data"),
-                    (o.innerText = "No Data"),
+                    (o.innerText = "No Data データがありません"),
                     s.appendChild(o);
                 } else
                   for (
