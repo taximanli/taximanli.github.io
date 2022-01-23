@@ -1832,11 +1832,17 @@
 	  // CHANGE THIS
       ss = [
         "You are a genius! 天才ですよ！",
+        "You are a genius! 天才ですよ！",
+        "Magnificent! 素晴らしい！",
         "Magnificent! 素晴らしい！",
         "Impressive! 立派！",
+        "Impressive! 立派！",
+        "Splendid! 素敵！",
         "Splendid! 素敵！",
         "Great! すごい！",
-        "Congratulations! おめでとうございます！",
+        "Great! すごい！",
+        "Phew! よし！",
+        "Phew! よし！",
       ],
       ts = (function (e) {
         r(t, e);
@@ -3005,7 +3011,7 @@
     Is.innerHTML = 
     `\n  
     <div class="countdown">\n  
-      <h1>Next Kotoba Asobou game 次の「言葉遊ボウ」ゲームまで</h1>\n  
+      <h1>Next Game<br>次のゲームまで</h1>\n  
       <div id="timer">\n  
         <div class="statistic-container">\n  
           <div class="statistic timer">\n  
@@ -3074,7 +3080,7 @@
                     var r = n,
                       i = this.stats.guesses[n],
                       l = Ts.content.cloneNode(!0),
-                      d = Math.max(7, Math.round((i / t) * 100));
+                      d = Math.max(13, Math.round((i / t) * 100));
                     l.querySelector(".guess").textContent = r;
                     var u = l.querySelector(".graph-bar");
                     if (
