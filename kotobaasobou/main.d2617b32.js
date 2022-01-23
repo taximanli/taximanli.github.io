@@ -1797,7 +1797,7 @@
           </button>\n  
         </div>\n  
         <div class="title">\n  
-          <small>Kotoba Asobou</small> 言葉遊ボウ\n  
+          <small><small>Kotoba Asobou</small></small> 言葉遊ボウ\n  
         </div>\n  
         <div class="menu">\n  
           <button id="statistics-button" class="icon" aria-label="statistics">\n  
