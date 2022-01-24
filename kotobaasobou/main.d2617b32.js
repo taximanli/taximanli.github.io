@@ -3160,7 +3160,7 @@
                                   }),
                                   (d += "\n"));
                               }),
-                              { text: "".concat(l, "\n\n").concat(d.trimEnd()) }
+                              { text: "".concat(l, "\n(Game ゲーム https:\/\/taximanli.github.io\/kotobaasobou\/)\n").concat(d.trimEnd()) }
                             );
                           })({
                             evaluations: e.gameApp.evaluations,
