@@ -1457,7 +1457,7 @@
       </section>\n  
     </div>\n  
     <div id="footnote">\n  
-      <div id="copyright">Copyright Josh Wardle 2021-2022. All Rights Reserved.<br>Adaption into Japanese by Desmond Lee.</div>\n  
+      <div id="copyright">Copyright Josh Wardle 2021-2022. All Rights Reserved.<br>Adaptation into Japanese by Desmond Lee.</div>\n  
       <div>\n  
         <div id="puzzle-number"></div>\n  
         <div id="hash"></div>\n  
