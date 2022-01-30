@@ -1,3 +1,6 @@
+// The launch date of Nanmalrol
+var Ha = new Date(2021, 12, 30, 0, 0, 0, 0);
+
 lang["kr"] = {
 
     "gametitle": "<small>Nanmalrol</small> 낱말놀",

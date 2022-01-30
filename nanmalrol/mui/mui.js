@@ -1,7 +1,7 @@
 var Mui = {
 
-    "gametitle": lang["en"]["gametitle"] + " " + lang["kr"]["gametitle"],
-    "gamename": lang["en"]["gamename"] + " " + lang["kr"]["gamename"],
+    "gametitle": lang["kr"]["gametitle"],
+    "gamename": lang["kr"]["gamename"],
     "gamesharelink": lang["kr"]["gamesharelink"],
 
     "Hard Mode": lang["en"]["Hard Mode"] + " " + lang["kr"]["Hard Mode"],
