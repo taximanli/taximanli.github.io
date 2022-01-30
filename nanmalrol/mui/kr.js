@@ -81,7 +81,7 @@ lang["kr"]["gameinstruction"] =
     </div>\n  
   </div>\n  
   <p><strong>A new word will be available each day!<br>단어는 매일 바뀝니다!</strong></p>\n  
-  <p>This game was designed by Josh Wardle and it was adapted into Japanese by Desmond Lee.</p>\n  
+  <p>This game was designed by Josh Wardle and it was adapted into Korean by Desmond Lee.</p>\n  
   <p>이 게임은 Josh Wardle이 개발하고 Desmond Lee가 한국어 버전을 만들었습니다.</p>\n  
 </div>\n  
   </div>\n  
