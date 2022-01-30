@@ -1,0 +1,69 @@
+<!-- This is the adaptation of the original English Wordle into other languages -->
+<!-- All credit to the original creator Josh Wardle -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <title>Nanmalrol 낱말놀</title>
+    <meta name="description" content="Korean Wordle - daily word puzzle game. 한국어 버전 Wordle - 매일 바뀜 단어 퍼즐 게임." />
+
+    <!-- FB Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nanmalrol 낱말놀" />
+    <meta property="og:site_name" content="Nanmalrol 낱말놀" />
+    <meta property="og:description" content="Korean Wordle - daily word puzzle game. 한국어 버전 Wordle - 매일 바뀜 단어 퍼즐 게임." />
+    <meta property="og:image" content="images/nanmalrol_card_600x314.png?202201301623" />
+    <meta property="og:url" content="https://taximanli.github.io/nanmalrol" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@taximanli" />
+    <meta name="twitter:creator" content="@taximanli" />
+    <meta property="twitter:domain" content="taximanli.github.io" />
+    <meta name="twitter:description" content="Japanese Wordle - daily word puzzle game. 한국어 버전 Wordle - 매일 바뀜 단어 퍼즐 게임." />
+    <meta name="twitter:image" content="images/nanmalrol_card_600x314.png?202201301623" />
+    <meta name="twitter:url" content="https://taximanli.github.io/nanmalrol" />
+
+    <meta name="theme-color" content="#538d4e" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon shortcut" sizes="3232" href="images/nanmalrol_logo_32x32.png?202201301623" />
+    <link rel="apple-touch-icon" href="images/nanmalrol_logo_192x192.png?202201301623" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">    
+
+    <link rel="stylesheet" href="../kotobade-asobou/css/global.css?202201301623">
+    <link rel="stylesheet" href="css/font.css?202201301623">
+
+  </head>
+  <body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GEY0BY7GJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7GEY0BY7GJ');
+    </script>    
+    <script>
+      (function () {
+        // Defining the hash before the main bundle allows the bundle access window.hash
+        window.wordle = window.wordle || {};
+        window.wordle.hash = 'k2617r32';
+      })();
+    </script>
+    <script src="wordlist/la.js?202201301623"></script>
+    <script src="wordlist/ta.js?202201301623"></script>
+    <script src="../kotobade-asobou/mui/en.js?202201301623"></script>
+    <script src="mui/kr.js?202201301623"></script>
+    <script src="mui/mui.js?202201301623"></script>
+    <script src="app/keyboard.js?202201301623"></script>
+    <script src="../kotobade-asobou/app/main.js?202201301623"></script>
+    <game-app></game-app>
+  </body>
+</html>
