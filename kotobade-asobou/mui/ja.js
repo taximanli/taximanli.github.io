@@ -1,4 +1,7 @@
-lang["ja"] = {
+// The launch date of Kotobade Asobou
+var Ha = new Date(2021, 12, 23, 0, 0, 0, 0);
+
+lang["local"] = {
 
     "gametitle": "<small>Kotobade Asobou</small> 言葉で遊ぼう",
     "gamename": "Kotobade Asobou 言葉で遊ぼう",
@@ -12,6 +15,7 @@ lang["ja"] = {
     "Feedback": "フィードバック",
     "Copyright": "",
 
+    "letter must be": "###text3### 文字目は「###text4###」でないといけません。",
     "Guess must contain": "###text### を答えに含める必要があります。",
 
     "Not in word list": "この答えは単語リストにありません",
@@ -41,7 +45,7 @@ lang["ja"] = {
     
 };
 
-lang["ja"]["gameinstruction"] =
+lang["local"]["gameinstruction"] =
 `<section>\n  
 <div class="instructions">\n  
   <p>Guess the word of the day in 12 tries.</p>\n  
